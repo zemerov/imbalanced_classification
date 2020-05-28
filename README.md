@@ -1,9 +1,18 @@
-# 1C_task
-Решение вступительной задачи на кафедру 1С
-Задача 2. Машинное обучение.
+# 1C department application assignment 
 
-Решение состоит из Jupyter Notebook, который содержит всю работу над данным и полученные результаты. 
+## Task 2: Machine Learning
 
-Для решения задачи я предобработал данные: сделал категориальные признаки, а также добавил несоклько новых, поэкспериментировал с несолькими алгоритмами, а также подобрал оптимальные гиперпараметры. 
 
-Итоговая точность составила 98% на тестовой выборке.
+### Data description
+The original dataset is given [here](https://www.kaggle.com/shivamb/real-or-fake-fake-jobposting-prediction) 
+
+### Data analysis and cleaning 
+
+
+### Prediction models
+
+1. Baseline: Logistic regression
+
+2. Gradient Boosting
+
+The best result 98% accuracy
