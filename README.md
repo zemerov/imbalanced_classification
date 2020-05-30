@@ -30,5 +30,4 @@ option
 
 Additionaly, I found out that fake ads ussually have poor company description and unspecify required experience.
 
-#### There is different features impact
 ![Feature importance](/img/importance.png)
