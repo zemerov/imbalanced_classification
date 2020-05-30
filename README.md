@@ -2,7 +2,7 @@
 
 ## Task 2: Machine Learning
 
-\*Note to see all plots use html version.
+\*Note: to see all plots correctly use html version.
 
 ### Data description
 The original dataset is given [here](https://www.kaggle.com/shivamb/real-or-fake-fake-jobposting-prediction) 
@@ -12,7 +12,7 @@ This dataset contains 18K job descriptions out of which about 800 are fake. The 
 
 ### Target 
 
-Predict whether ad is fake or real.
+Predict job ad is fake or real.
 
 
 ### Results
@@ -30,4 +30,5 @@ option
 
 Additionaly, I found out that fake ads ussually have poor company description and unspecify required experience.
 
+#### There is different features impact
 ![Feature importance](/img/importance.png)
