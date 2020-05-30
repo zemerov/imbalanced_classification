@@ -1,0 +1,7 @@
+./idea
+*.pyc
+./__pycache__
+./.pytest_cache
+./.ipynb_checkpoints
+./catboost_info
+fake_job_posting.csv
