@@ -54,11 +54,13 @@ It has really poor quality. It means data has a lot of nonlinear dependencies.
 
 2. There were trained three gradient boosting models.
 
-The best model gets 0.87 AUC-PR on test dataset which is quite good metric.
+The best model gets 0.87 AUC-PR on test dataset which is quite good final score.
 
 ## Model Explanation
 
-After training the model I used SHAP library for interpretation.
+After training the model I used SHAP library for interpretation. 
+More examples can be found in model_explanation.ipynb file.
+
 The main interest is feature importance for model prediction.
 
 ![Feature importance](/img/importance.jpg)
@@ -66,3 +68,9 @@ The main interest is feature importance for model prediction.
 Obviously len_company_profile and has_company_logo has the biggest impact on predictions. 
 
 So empirically we can predict that post with poor company description and without logo is a fake.  
+
+![Dependency](/img/dependency.jpg)
+
+In this plot it is clearly visible that shorter company description leads to higher impact. 
+Furthermore there is a correlation between the len_company_profile and has_company_logo. Companies with short description 
+usually do not have logo.
